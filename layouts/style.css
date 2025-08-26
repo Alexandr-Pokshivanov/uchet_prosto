@@ -1,0 +1,75 @@
+html {
+    background: linear-gradient(
+        -30deg,
+        #0033FF,
+        #0600AB, 
+        #00033D  
+    );
+    background-attachment: fixed;
+    font-family: 'Verdana', sans-serif;
+    color: #F2E6EE
+}
+
+h2 {
+    font-size: 1.7em;
+}
+
+a {
+    color: #F2E6EE;
+    font-size: 1.1em;
+    text-decoration: none;
+}
+
+a:hover {
+    color: #977DFF;
+}
+
+.panel {
+    border: 1px solid rgba(160, 229, 217, .2);
+    border-radius: 10px;
+    box-shadow: 0px 0px 5px 5px rgba(6, 0, 171, .2);
+}
+
+.content {
+    border-radius: 10px;
+    padding: 20px;
+}
+
+.content-wrapper {
+    display: flex;
+    justify-content: space-between;
+}
+
+.side-menu{
+    display: inline-flex;
+    flex-direction: column;
+    padding: 20px 40px 20px 20px;
+}
+
+.topic-list {
+    list-style-type: none;
+    padding-left: 15px;
+}
+
+.subtopic-item {
+    margin-top: 5px;
+    font-size: 14px;
+}
+
+.selected {
+    border-bottom: 1px solid rgba(160, 229, 217, .2);
+}
+
+.subtopic-block {
+    width: 80%;
+    padding: 20px;
+}
+
+.subtopic-head {
+    width: 100%;
+    text-indent: 20px;
+}
+
+.subtopic-body {
+    text-indent: 40px;
+}
